@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "skipLibCheck": true,
+
+    /* Bundler mode */
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "noEmit": true,
+    "jsx": "react-jsx",
+
+    /* Linting */
+    "strict": false,
+    "noFallthroughCasesInSwitch": false,
+    "noUncheckedSideEffectImports": false,
+
+    /* Import paths */
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": [
+    "src/components/AddProperty.tsx",
+    "src/components/AdminDashboard.tsx", 
+    "src/components/BookingsList.tsx",
+    "src/components/ChatWindow.tsx",
+    "src/components/ComplaintsCenter.tsx",
+    "src/components/ConversationsList.tsx",
+    "src/components/EditProperty.tsx",
+    "src/components/EnhancedDashboard.tsx",
+    "src/components/EnhancedNavigation.tsx",
+    "src/components/EnhancedPropertyList.tsx",
+    "src/components/MessagesCenter.tsx",
+    "src/components/MyPropertiesList.tsx",
+    "src/components/NotificationCenter.tsx",
+    "src/components/PropertiesSection.tsx",
+    "src/components/PropertyDetails.tsx",
+    "src/components/PropertyList.tsx",
+    "src/components/TestAuth.tsx",
+    "src/components/UserDashboard.tsx",
+    "src/components/UserProfile.tsx"
+  ]
+}
